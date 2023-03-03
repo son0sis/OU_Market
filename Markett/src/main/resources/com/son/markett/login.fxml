@@ -13,7 +13,6 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="755.0" style="-fx-background-color: #442A59;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="35.0" layoutY="223.0">
@@ -21,11 +20,6 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <ImageView fitHeight="389.0" fitWidth="315.0" layoutX="401.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../../../../../../anh-lofi-chill-3d_042520334.jpg" />
-         </image>
-      </ImageView>
       <Pane layoutX="43.0" layoutY="86.0" prefHeight="389.0" prefWidth="358.0" style="-fx-background-color: white;">
          <children>
             <Label layoutX="139.0" layoutY="70.0" text="SIGN IN">
@@ -65,5 +59,15 @@
             <Hyperlink layoutY="3.0" text="&lt;- Return Home" />
          </children>
       </Pane>
+      <Label alignment="BASELINE_CENTER" layoutX="414.0" layoutY="86.0" prefHeight="56.0" prefWidth="340.0" text="OUMARKET" textAlignment="JUSTIFY" textFill="#f2f2f2">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="54.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="330.0" fitWidth="331.0" layoutX="414.0" layoutY="148.0" opacity="0.87" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/market-svgrepo-com.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>
